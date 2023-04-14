@@ -91,13 +91,13 @@ export const heroData: Hero = {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
       primary: false,
-    },
-    {
-      href:"/CV2023.pdf",
-      text: 'CV',
-      primary: true,
-      Icon: DownloadIcon,
     }
+    // {
+    //   href:"/CV2023.pdf",
+    //   text: 'CV',
+    //   primary: true,
+    //   Icon: DownloadIcon,
+    // }
   ],
 };
 
