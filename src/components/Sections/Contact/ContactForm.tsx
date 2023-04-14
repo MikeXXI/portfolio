@@ -45,9 +45,8 @@ const ContactForm: FC = memo(() => {
 
   return (
     <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
-      <input hidden className={inputClasses} name="name" onChange={onChange} placeholder="Nom" required type="text" />
+      <input className={inputClasses} name="name" onChange={onChange} placeholder="Nom" required type="text" hidden/>
       <input
-      hidden
         autoComplete="email"
         className={inputClasses}
         name="email"
@@ -55,9 +54,9 @@ const ContactForm: FC = memo(() => {
         placeholder="Email"
         required
         type="email"
+        hidden
       />
       <textarea
-      hidden
         className={inputClasses}
         maxLength={250}
         name="message"
@@ -65,12 +64,12 @@ const ContactForm: FC = memo(() => {
         placeholder="Message"
         required
         rows={6}
+        hidden
       />
       <button
-      hidden
         aria-label="Submit contact form"
         className="w-max rounded-full border-2 border-orange-600 bg-stone-900 px-4 py-2 text-sm font-medium text-white shadow-md outline-none hover:bg-stone-800 focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-stone-800"
-        type="submit">
+        type="submit" hidden>
         Envoyez
       </button>
     </form>
