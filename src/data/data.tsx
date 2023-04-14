@@ -13,18 +13,18 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/fond_acc.jpg';
+import heroImage from '../images/fond_acc2.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -219,48 +219,48 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://mikexxi.me',
     image: porfolioImage4,
   },
-  // {
-  //   title: 'Mario Portfolio',
-  //   description: 'Voici une ébauche d\'un projet personnel réalisé en JS vanilla, dans le but de crée un mini jeux à travers un portfolio .',
-  //   url: 'https://mikexxi.me',
-  //   image: porfolioImage5,
-  // },
-  // {
-  //   title: 'Mario Portfolio',
-  //   description: 'Voici une ébauche d\'un projet personnel réalisé en JS vanilla, dans le but de crée un mini jeux à travers un portfolio .',
-  //   url: 'https://mikexxi.me',
-  //   image: porfolioImage6,
-  // },
-  // {
-  //   title: 'Mario Portfolio',
-  //   description: 'Voici une ébauche d\'un projet personnel réalisé en JS vanilla, dans le but de crée un mini jeux à travers un portfolio .',
-  //   url: 'https://mikexxi.me',
-  //   image: porfolioImage7,
-  // },
-  // {
-  //   title: 'Mario Portfolio',
-  //   description: 'Voici une ébauche d\'un projet personnel réalisé en JS vanilla, dans le but de crée un mini jeux à travers un portfolio .',
-  //   url: 'https://mikexxi.me',
-  //   image: porfolioImage8,
-  // },
-  // {
-  //   title: 'Mario Portfolio',
-  //   description: 'Voici une ébauche d\'un projet personnel réalisé en JS vanilla, dans le but de crée un mini jeux à travers un portfolio .',
-  //   url: 'https://mikexxi.me',
-  //   image: porfolioImage9,
-  // },
-  // {
-  //   title: 'Mario Portfolio',
-  //   description: 'Voici une ébauche d\'un projet personnel réalisé en JS vanilla, dans le but de crée un mini jeux à travers un portfolio .',
-  //   url: 'https://mikexxi.me',
-  //   image: porfolioImage10,
-  // },
-  // {
-  //   title: 'Mario Portfolio',
-  //   description: 'Voici une ébauche d\'un projet personnel réalisé en JS vanilla, dans le but de crée un mini jeux à travers un portfolio .',
-  //   url: 'https://mikexxi.me',
-  //   image: porfolioImage11,
-  // },
+  {
+    title: 'Mario Portfolio',
+    description: 'Voici une ébauche d\'un projet personnel réalisé en JS vanilla, dans le but de crée un mini jeux à travers un portfolio .',
+    url: 'https://mikexxi.me',
+    image: porfolioImage5,
+  },
+  {
+    title: 'Mario Portfolio',
+    description: 'Voici une ébauche d\'un projet personnel réalisé en JS vanilla, dans le but de crée un mini jeux à travers un portfolio .',
+    url: 'https://mikexxi.me',
+    image: porfolioImage6,
+  },
+  {
+    title: 'Mario Portfolio',
+    description: 'Voici une ébauche d\'un projet personnel réalisé en JS vanilla, dans le but de crée un mini jeux à travers un portfolio .',
+    url: 'https://mikexxi.me',
+    image: porfolioImage7,
+  },
+  {
+    title: 'Mario Portfolio',
+    description: 'Voici une ébauche d\'un projet personnel réalisé en JS vanilla, dans le but de crée un mini jeux à travers un portfolio .',
+    url: 'https://mikexxi.me',
+    image: porfolioImage8,
+  },
+  {
+    title: 'Mario Portfolio',
+    description: 'Voici une ébauche d\'un projet personnel réalisé en JS vanilla, dans le but de crée un mini jeux à travers un portfolio .',
+    url: 'https://mikexxi.me',
+    image: porfolioImage9,
+  },
+  {
+    title: 'Mario Portfolio',
+    description: 'Voici une ébauche d\'un projet personnel réalisé en JS vanilla, dans le but de crée un mini jeux à travers un portfolio .',
+    url: 'https://mikexxi.me',
+    image: porfolioImage10,
+  },
+  {
+    title: 'Mario Portfolio',
+    description: 'Voici une ébauche d\'un projet personnel réalisé en JS vanilla, dans le but de crée un mini jeux à travers un portfolio .',
+    url: 'https://mikexxi.me',
+    image: porfolioImage11,
+  },
 ];
 
 /**
