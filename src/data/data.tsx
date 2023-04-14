@@ -74,10 +74,10 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         Je suis actuellement Mentor Informatique à <strong className="text-stone-100">Sophia Ynov Campus</strong>, et suis
-        le cursus de bachelor 3 Informatique option <strong className="text-stone-100">développement</strong>.
-        Après une expérience de développeur informatique, j'ai constaté mes lacunes et mon envie de développer ce coté mangégérial. J'ai donc choisi de reprendre l'alternance.
+        le cursus de Bachelor 3 Informatique option <strong className="text-stone-100">développement</strong>.
+        Après une expérience de développeur informatique, j'ai constaté mes lacunes et mon envie de développer ce coté managérial. J'ai donc choisi de reprendre l'alternance.
         Toujours à la recherche de nouvelles technologies et de nouveaux projets pour nourrir ma soif de savoir.
-          J'aime particulièrement travailler sur des projets <strong className="text-stone-100">complexes</strong> et me challengers pour sans cesse me <strong className="text-stone-100">dépasser</strong> et me <strong className="text-stone-100">perfectionner</strong>.
+          J'aime particulièrement travailler sur des projets <strong className="text-stone-100">complexes</strong> et me challenger pour sans cesse me <strong className="text-stone-100">dépasser</strong> et me <strong className="text-stone-100">perfectionner</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
       En dehors de l'informatique, je suis également un grand sportif et un passionné <strong className="text-stone-100">d'arts martiaux</strong>.
@@ -322,7 +322,7 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'Socrate',
-      text: 'La chute n’est pas un échec. L’échec, c’est de rester là où on est tombé',
+      text: 'La chute n\'est pas un échec. L\'échec, c\'est de rester là où on est tombé.',
       image: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Socrate_du_Louvre.jpg',
     },
     {
