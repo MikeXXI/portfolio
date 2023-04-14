@@ -93,9 +93,9 @@ export const heroData: Hero = {
       primary: false,
     },
     {
-      href: `../data/resume.pdf`,
-      text: 'Telecharger mon CV',
-      primary: true,      
+      href:"/CV2023.pdf",
+      text: 'CV',
+      primary: true,
       Icon: DownloadIcon,
     }
   ],
