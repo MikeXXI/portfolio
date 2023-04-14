@@ -127,7 +127,11 @@ const NavItem: FC<{
   return (
     <Link href={`/#${section}`} passHref>
       <a className={classNames(current ? activeClass : inactiveClass)} key={section} onClick={onClick}>
-        {section}
+        {section == "about" ? "à propos de moi" : 
+          section == "resume" ? "résumé" : 
+          section == "portfolio" ? "portfolio" : 
+          section == "testimonials" ? "citations" : 
+          section == "contact" ? "contact" : "Error"}
       </a>
     </Link>
   );
