@@ -35,6 +35,9 @@ const ContactForm: FC = memo(() => {
       /**
        * This is a good starting point to wire up your form submission logic
        * */
+      alert('Un problème est survenu, nous sommes désolés de la gêne occasionnée.'+
+      ' Si le problème persiste, veuillez utiliser un autre moyen de communication.'+
+      ' Merci ! Le problème sera résolu dans les plus brefs délais.')
       console.log('Data to send: ', data);
     },
     [data],
