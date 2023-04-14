@@ -377,5 +377,5 @@ export const socialLinks: Social[] = [
   { label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/21632474/mikexxi' },
   { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/mickael-djegherif/' },
   { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/k2v2.0/' },
-  { label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/mikexxi' },
+  { label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/MikeDje21' },
 ];
