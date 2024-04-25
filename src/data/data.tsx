@@ -107,12 +107,12 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: ``,
   aboutItems: [
-    {label: 'Ville', text: 'Mougins', Icon: MapIcon},
-    {label: 'Age', text: '32', Icon: CalendarIcon},
-    {label: 'Nationalité', text: 'Français', Icon: FlagIcon},
-    {label: 'Intérêt', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Etudes', text: 'Sophia Ynov Campus', Icon: AcademicCapIcon},
-    {label: 'Entreprise', text: 'Infotel', Icon: BuildingOffice2Icon},
+    {label:'Ville', text:'Mougins', Icon:MapIcon},
+    {label:'Age', text:'32', Icon:CalendarIcon},
+    {label:'Nationalité', text:'Français', Icon:FlagIcon},
+    {label:'Intérêt', text:'Motorcycles, Muay Thai, Banjos', Icon:SparklesIcon},
+    {label:'Etudes', text:'Sophia Ynov Campus', Icon:AcademicCapIcon},
+    {label:'Entreprise', text:'Infotel', Icon:BuildingOffice2Icon},
   ],
 };
 
