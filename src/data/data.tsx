@@ -7,7 +7,6 @@ import {
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
-
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -108,12 +107,12 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: ``,
   aboutItems: [
-    { label: 'Ville', text: 'Mougins', Icon: MapIcon },
-    { label: 'Age', text: '32', Icon: CalendarIcon },
-    { label: 'Nationalité', text: 'Français', Icon: FlagIcon },
-    { label: 'Intérêt', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon },
-    { label: 'Etudes', text: 'Sophia Ynov Campus', Icon: AcademicCapIcon },
-    { label: 'Entreprise', text: 'Infotel', Icon: BuildingOffice2Icon },
+    {label: 'Ville', text: 'Mougins', Icon: MapIcon},
+    {label: 'Age', text: '32', Icon: CalendarIcon},
+    {label: 'Nationalité', text: 'Français', Icon: FlagIcon},
+    {label: 'Intérêt', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
+    {label: 'Etudes', text: 'Sophia Ynov Campus', Icon: AcademicCapIcon},
+    {label: 'Entreprise', text: 'Infotel', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -411,9 +410,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/mikexxi' },
-  { label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/21632474/mikexxi' },
-  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/mickael-djegherif/' },
-  { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/mickael.djegherif/' },
-  { label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/MikeDje21' },
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/mikexxi'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/21632474/mikexxi'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/mickael-djegherif/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/mickael.djegherif/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/MikeDje21'},
 ];
