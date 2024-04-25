@@ -249,7 +249,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Generation de token',
-    description: 'Lors de mon stage chez Monument Tracker, j\ai du réaliser une génération de token pour leurs applications mobiles.',
+    description: 'Lors de mon stage chez Monument Tracker, j\'ai du réaliser une génération de token pour leurs applications mobiles.',
     url: '',
     image: porfolioImage7,
   },
@@ -261,7 +261,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Challenge 48',
-    description: 'Ceci est un projet d\école réalisé en 48H, l\obejectif était de réaliser un défi. Nous avons donc décidez de réliser plusieurs mini jeux (morpion, quizz, mastermind, etc), qui rapporte des missiles afin de détruire un bateau, dans une bataille navale. Le nomnbre de missile récupérable étant restreint.',
+    description: 'Ceci est un projet d\'école réalisé en 48H, l\'obejectif était de réaliser un défi. Nous avons donc décidez de réliser plusieurs mini jeux (morpion, quizz, mastermind, etc), qui rapporte des missiles afin de détruire un bateau, dans une bataille navale. Le nomnbre de missile récupérable étant restreint.',
     url: '',
     image: porfolioImage9,
   },
@@ -273,7 +273,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Eworld',
-    description: 'Ce projet a été réalisé avec pour objectif de permettre a une personne, d\afficher sa liste de taches, ainsi que d\ajouter une liste d\achats (courses ou cadeaux). La v2 implémetera un système de groupe. Afin de diffuser ses listes.',
+    description: 'Ce projet a été réalisé avec pour objectif de permettre a une personne, d\'afficher sa liste de taches, ainsi que d\'ajouter une liste d\'achats (courses ou cadeaux). La v2 implémetera un système de groupe. Afin de diffuser ses listes.',
     url: '',
     image: porfolioImage11,
   },
