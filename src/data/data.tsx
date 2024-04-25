@@ -1,12 +1,12 @@
 import {
   AcademicCapIcon,
+  ArrowDownTrayIcon,
+  BuildingOffice2Icon,
   CalendarIcon,
-  // DownloadIcon,
   FlagIcon,
   MapIcon,
-  OfficeBuildingIcon,
   SparklesIcon,
-} from '@heroicons/react/outline';
+} from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
@@ -73,14 +73,14 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Je suis actuellement Mentor Informatique à <strong className="text-stone-100">Sophia Ynov Campus</strong>, et suis
-        le cursus de Bachelor 3 Informatique option <strong className="text-stone-100">développement</strong>.
+        Je suis actuellement Développeur full stack à <strong className="text-stone-100">Infotel</strong>, et suis actuellement
+        le cursus de Master 1  Informatique <strong className="text-stone-100">Expert en développement logiciel, mobiel et IoT</strong>.
         Après une expérience de développeur informatique, j'ai constaté mes lacunes et mon envie de développer ce coté managérial. J'ai donc choisi de reprendre l'alternance.
         Toujours à la recherche de nouvelles technologies et de nouveaux projets pour nourrir ma soif de savoir.
           J'aime particulièrement travailler sur des projets <strong className="text-stone-100">complexes</strong> et me challenger pour sans cesse me <strong className="text-stone-100">dépasser</strong> et me <strong className="text-stone-100">perfectionner</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      En dehors de l'informatique, je suis également un grand sportif et un passionné <strong className="text-stone-100">d'arts martiaux</strong>.
+          En dehors de l'informatique, je suis également un grand sportif et un passionné <strong className="text-stone-100">d'arts martiaux</strong>.
           Je passe une grande partie de mon temps libre à pratiquer diverses activités sportives.
           Je considère que la pratique sportive est essentielle pour maintenir un équilibre entre le <strong className="text-stone-100">corps</strong> et <strong className="text-stone-100">l'esprit</strong>, ce qui me permet de rester concentré et motivé dans mes projets.
       </p>
@@ -91,13 +91,13 @@ export const heroData: Hero = {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
       primary: false,
+    },
+    {
+        href:"/assets/CV.pdf",
+        text: 'CV',
+        primary: true,
+        Icon: ArrowDownTrayIcon,
     }
-    // {
-    //   href:"/CV2023.pdf",
-    //   text: 'CV',
-    //   primary: true,
-    //   Icon: DownloadIcon,
-    // }
   ],
 };
 
@@ -109,11 +109,11 @@ export const aboutData: About = {
   description: ``,
   aboutItems: [
     { label: 'Ville', text: 'Mougins', Icon: MapIcon },
-    { label: 'Age', text: '31', Icon: CalendarIcon },
+    { label: 'Age', text: '32', Icon: CalendarIcon },
     { label: 'Nationalité', text: 'Français', Icon: FlagIcon },
     { label: 'Intérêt', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon },
     { label: 'Etudes', text: 'Sophia Ynov Campus', Icon: AcademicCapIcon },
-    { label: 'Entreprise', text: 'Sophia Ynov Campus', Icon: OfficeBuildingIcon },
+    { label: 'Entreprise', text: 'Infotel', Icon: BuildingOffice2Icon },
   ],
 };
 
@@ -122,23 +122,14 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Langues',
-    skills: [
-      {
-        name: 'Français',
-        level: 10,
-      },
-      {
-        name: 'Anglais',
-        level: 3,
-      }
-    ],
-  },
-  {
     name: 'Développement Frontend',
     skills: [
       {
         name: 'React',
+        level: 6,
+      },
+      {
+        name: 'Angular',
         level: 5,
       },
       {
@@ -147,7 +138,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'CSS',
-        level: 6,
+        level: 4,
       },
       {
         name: 'JS',
@@ -160,7 +151,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Symfony',
-        level: 5,
+        level: 6,
       },
       {
         name: 'PHP',
@@ -168,6 +159,14 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Golang',
+        level: 4,
+      },
+      {
+        name: 'Node.js',
+        level: 6,
+      },
+      {
+        name: 'Python',
         level: 5,
       },
     ],
@@ -185,10 +184,27 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'JAVA',
+        level: 4,
+      },
+      {
+        name: 'C#',
         level: 3,
       },
     ],
   },
+  {
+    name: 'Langues',
+    skills: [
+      {
+        name: 'Français',
+        level: 10,
+      },
+      {
+        name: 'Anglais',
+        level: 7,
+      },
+    ],
+  }
 ];
 
 /**
@@ -268,13 +284,19 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: '2023',
+    date: '2025',
+    location: 'Sophia Ynov Campus',
+    title: 'Mastère 2 - Expert en Développement Logiciel, Mobiel et IoT',
+    content: <p></p>,
+  },
+  {
+    date: '2024',
     location: 'Sophia Ynov Campus',
     title: 'Mastère 1 - Expert en Développement Logiciel & IoT ',
     content: <p></p>,
   },
   {
-    date: 'Actuellement',
+    date: '2023',
     location: 'Sophia Ynov Campus',
     title: 'Bachelor 3 - Développement',
     content: <p></p>,
@@ -290,7 +312,18 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: '2022 - Aujourd\'hui',
+    date: '2023 - 2024',
+    location: 'Infotel',
+    title: 'Développeur Full Stack',
+    content: (
+      <p>
+        Développement interne d'une application Java spring boot / Angular pour la gestion des ressources humaines interne et 
+        externe au sein de l'entreprise.
+      </p>
+    ),
+  },
+  {
+    date: '2022 - 2023',
     location: 'Sophia Ynov Campus',
     title: 'Mentor informatique',
     content: (
@@ -348,8 +381,13 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'mike.dje@outlook.fr',
-      href: 'mailto:mike.dje@outlook.fr',
+      text: 'mickael.djegherif@outlook.fr',
+      href: 'mailto:mickael.djegherif@outlook.fr',
+    },
+    {
+      type: ContactType.Phone,
+      text: '06 99 79 48 52',
+      href: 'tel:+33699794852',
     },
     {
       type: ContactType.Location,
@@ -358,8 +396,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Instagram,
-      text: '@k2v2.0',
-      href: 'https://www.instagram.com/k2v2.0/',
+      text: '@mickael.djegherif',
+      href: 'https://www.instagram.com/mickael.djegherif/',
     },
     {
       type: ContactType.Github,
@@ -376,6 +414,6 @@ export const socialLinks: Social[] = [
   { label: 'Github', Icon: GithubIcon, href: 'https://github.com/mikexxi' },
   { label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/21632474/mikexxi' },
   { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/mickael-djegherif/' },
-  { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/k2v2.0/' },
+  { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/mickael.djegherif/' },
   { label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/MikeDje21' },
 ];
