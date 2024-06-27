@@ -74,7 +74,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         Je suis actuellement Développeur full stack à <strong className="text-stone-100">Infotel</strong>, et suis actuellement
-        le cursus de Master 1  Informatique <strong className="text-stone-100">Expert en développement logiciel, mobiel et IoT</strong>.
+        le cursus de Master 2 Informatique <strong className="text-stone-100">Expert en développement logiciel, mobiel et IoT</strong>.
         Après une expérience de développeur informatique, j'ai constaté mes lacunes et mon envie de développer ce coté managérial. J'ai donc choisi de reprendre l'alternance.
         Toujours à la recherche de nouvelles technologies et de nouveaux projets pour nourrir ma soif de savoir.
           J'aime particulièrement travailler sur des projets <strong className="text-stone-100">complexes</strong> et me challenger pour sans cesse me <strong className="text-stone-100">dépasser</strong> et me <strong className="text-stone-100">perfectionner</strong>.
