@@ -1,6 +1,6 @@
 # React JS Portfolio
 
-![ReactJS Resume Portfolio](resume-screenshot.jpg?raw=true 'ReactJS Resume Portfolio')
+![ReactJS Resume Portfolio](resume-screenshot1.jpg?raw=true 'ReactJS Resume Portfolio')
 
 <div align="center">
 
@@ -20,9 +20,7 @@
 ## Mickaël DJEGHERIF
 
 <a href="https://twitter.com/MikeDje21"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
-
 <a href="https://instagram.com/mickael.djegherif"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
-
 <a href="https://www.linkedin.com/in/mickael-djegherif"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
 
 [![GitHub followers](https://img.shields.io/github/followers/mikexxi.svg?style=social&label=Follow)](https://github.com/mikexxi/)
