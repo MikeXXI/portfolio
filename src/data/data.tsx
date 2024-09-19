@@ -84,7 +84,6 @@ export const heroData: Hero = {
           Je passe une grande partie de mon temps libre à pratiquer diverses activités sportives.
           Je considère que la pratique sportive est essentielle pour maintenir un équilibre entre le <strong className="text-stone-100">corps</strong> et <strong className="text-stone-100">l'esprit</strong>, ce qui me permet de rester concentré et motivé dans mes projets.
       </p>
-      <a href="CV.pdf">Accès à mon CV</a>
     </>
   ),
   actions: [
@@ -94,7 +93,7 @@ export const heroData: Hero = {
       primary: false,
     },
     {
-        href:"CV.pdf",
+        href:"https://www.canva.com/design/DAF9_7-KOyA/I7ImvrDnMaM_ob8MY65Yig/view?utm_content=DAF9_7-KOyA&utm_campaign=designshare&utm_medium=link&utm_source=editor",
         text: 'CV',
         primary: true,
         Icon: ArrowDownTrayIcon,
