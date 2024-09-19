@@ -126,19 +126,19 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 6,
-      },
-      {
-        name: 'Angular',
-        level: 5,
-      },
-      {
-        name: 'Html',
         level: 7,
       },
       {
-        name: 'CSS',
+        name: 'Angular',
         level: 4,
+      },
+      {
+        name: 'Html',
+        level: 8,
+      },
+      {
+        name: 'CSS',
+        level: 5,
       },
       {
         name: 'JS',
@@ -151,7 +151,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Symfony',
-        level: 6,
+        level: 7,
       },
       {
         name: 'PHP',
@@ -163,11 +163,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Node.js',
-        level: 6,
+        level: 8,
       },
       {
         name: 'Python',
-        level: 5,
+        level: 7,
       },
     ],
   },
@@ -176,11 +176,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'SQL',
-        level: 7,
+        level: 8,
       },
       {
         name: 'API',
-        level: 6,
+        level: 8,
       },
       {
         name: 'JAVA',
@@ -201,7 +201,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Anglais',
-        level: 7,
+        level: 4,
       },
     ],
   }
@@ -232,13 +232,13 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Applications Périmètre',
     description: 'Cette application en JAVA, a pour but d\'aider les enfants à calculer un pélimètre ou une surface d\'une forme.',
-    url:'porfolioImage4',
+    url:'',
     image: porfolioImage4,
   },
   {
     title: 'Site Freelance',
     description: 'Dans le cadre de mon BTS, nous avons du réaliser un site de freelance. Avec toute le système de communications et la base de données, en php vanilla.',
-    url: 'images/portfolio-5.jpg',
+    url: '',
     image: porfolioImage5,
   },
   {
