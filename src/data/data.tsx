@@ -73,9 +73,9 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Je suis actuellement Développeur full stack à <strong className="text-stone-100">Infotel</strong>, et suis actuellement
+        Je suis actuellement Ingénieur Logiciel à <strong className="text-stone-100">CGI</strong>, et suis actuellement
         le cursus de Master 2 Informatique <strong className="text-stone-100">Expert en développement logiciel, mobiel et IoT</strong>.
-        Après une expérience de développeur informatique, j'ai constaté mes lacunes et mon envie de développer ce coté managérial. J'ai donc choisi de reprendre l'alternance.
+        Après une 2ans en tant que développeur informatique, j'ai constaté mes lacunes et mon envie de développer ce coté managérial. J'ai donc choisi de reprendre l'alternance.
         Toujours à la recherche de nouvelles technologies et de nouveaux projets pour nourrir ma soif de savoir.
           J'aime particulièrement travailler sur des projets <strong className="text-stone-100">complexes</strong> et me challenger pour sans cesse me <strong className="text-stone-100">dépasser</strong> et me <strong className="text-stone-100">perfectionner</strong>.
       </p>
@@ -232,13 +232,13 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Applications Périmètre',
     description: 'Cette application en JAVA, a pour but d\'aider les enfants à calculer un pélimètre ou une surface d\'une forme.',
-    url:'',
+    url:'porfolioImage4',
     image: porfolioImage4,
   },
   {
     title: 'Site Freelance',
     description: 'Dans le cadre de mon BTS, nous avons du réaliser un site de freelance. Avec toute le système de communications et la base de données, en php vanilla.',
-    url: '',
+    url: 'images/portfolio-5.jpg',
     image: porfolioImage5,
   },
   {
@@ -312,13 +312,26 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: '2024 - En cours',
+    location: 'CGI',
+    title: 'Ingénieur Logiciel',
+    content: (
+      <p>
+        Réalisation d'évolutions et de corrections diverses sur le panel des différentes applications du client PRO BTP.
+        Back-end en Java 8.
+        Front-end en AngularJS / AngularX.
+      </p>
+    ),
+  },
+  {
     date: '2023 - 2024',
     location: 'Infotel',
     title: 'Développeur Full Stack',
     content: (
       <p>
-        Développement interne d'une CRM Java spring boot / Angular pour la gestion des ressources humaines interne et 
-        externe au sein de l'entreprise.
+        Développement d'un CRM pour les ressources internes et externes à l'entreprise.
+        Le back-end a été réalisé en Java avec Spring Boot, et le front-end en Angular.
+        La gestion des tickets ainsi que le déploiement ont été effectués avec Azure, en utilisant une méthodologie Agile.
       </p>
     ),
   },
@@ -328,20 +341,20 @@ export const experience: TimelineItem[] = [
     title: 'Mentor informatique',
     content: (
       <p>
-        En charge des bachelors 1 et 2 dans l'apprentissage et la compréhension des
-        langages informatiques. En charge de la correction des projets et de la
-        mise en place des projets de groupe.
+        Responsable des étudiants de première et deuxième année post-bac, j'ai été chargé de préparer et d'animer des cours ainsi que des projets pour leur enseigner les bases du développement informatique.
+        J'ai également dû évaluer et corriger les divers travaux et projets tout au long de l'année.
       </p>
     ),
   },
   {
     date: '2019 - 2022',
-    location: 'DSO',
+    location: 'ECS / DSO',
     title: 'Développeur informatique',
     content: (
       <p>
-        J'ai pu travailler sur plusieurs projets, l'intranet de la société conernant le materiels informatiques, sur la création d'un bot de signature ou encore
-        sur l'un des sites web pour la gestion des documents clients.
+        Au sein d'ECS, une filiale du groupe DSO, j'étais responsable de la gestion du parc informatique.
+        En tant que développeur, j'ai notamment collaboré à la création de l'intranet de DSO et au développement d'une GED interne pour ECS.
+        J'ai également développé un bot pour automatiser la création des signatures, simplifiant ainsi le processus pour une centaine de collaborateurs.
       </p>
     ),
   },
