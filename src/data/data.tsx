@@ -84,6 +84,7 @@ export const heroData: Hero = {
           Je passe une grande partie de mon temps libre à pratiquer diverses activités sportives.
           Je considère que la pratique sportive est essentielle pour maintenir un équilibre entre le <strong className="text-stone-100">corps</strong> et <strong className="text-stone-100">l'esprit</strong>, ce qui me permet de rester concentré et motivé dans mes projets.
       </p>
+      <a href="CV.pdf">Accès à mon CV</a>
     </>
   ),
   actions: [
